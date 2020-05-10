@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CAPP.ttf">
+            <string>CAPP</string>
+        </array>
+        <array key="IRANYekanRegularMobile(FaNum).ttf">
+            <string>IRANYekanMobileFaNum</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cargoDetailsCell" rowHeight="143" id="KGk-i7-Jjw" customClass="CargoDetailsCell" customModule="Capp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="377" height="142.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOk-pf-KHl" customClass="MyView" customModule="Capp" customModuleProvider="target">
+                        <rect key="frame" x="5" y="8" width="367" height="126.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="um4-XF-ani">
+                                <rect key="frame" x="334" y="11" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="4zs-vz-HNz"/>
+                                    <constraint firstAttribute="height" constant="25" id="yDl-pK-WSD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CAPP" family="CAPP" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIV-QL-uJW">
+                                <rect key="frame" x="8" y="8" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3zl-aQ-2Tp"/>
+                                    <constraint firstAttribute="width" constant="30" id="tbj-Vv-KO4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CAPP" family="CAPP" pointSize="22"/>
+                                <state key="normal" title="o">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnStarPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="up9-qx-lwA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نوع محصول:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbD-7o-uW3">
+                                <rect key="frame" x="247.5" y="11" width="78.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="ga3-zS-a0b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobileFaNum" family="IRANYekanMobile(FaNum)" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تیرآهن" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8q4-eh-Ris">
+                                <rect key="frame" x="200" y="11" width="45.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="IRANYekanMobileFaNum" family="IRANYekanMobile(FaNum)" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مبدا:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Nv-i3-N2U">
+                                <rect key="frame" x="328.5" y="51" width="30.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="hjA-4f-VKJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobileFaNum" family="IRANYekanMobile(FaNum)" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اصفهان" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydf-yD-91N">
+                                <rect key="frame" x="274.5" y="51" width="48.5" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Pid-mE-JCz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobileFaNum" family="IRANYekanMobile(FaNum)" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VF-pr-EaW">
+                                <rect key="frame" x="242" y="51" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="6bE-9c-093"/>
+                                    <constraint firstAttribute="width" constant="25" id="LFP-yz-XZX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CAPP" family="CAPP" pointSize="20"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مقصد:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCF-D2-KSs">
+                                <rect key="frame" x="195" y="51" width="41" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="kKp-v1-mQJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobileFaNum" family="IRANYekanMobile(FaNum)" pointSize="17"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نرخ حمل: ۱/۲۰۰/۰۰۰" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aF0-w4-g5e">
+                                <rect key="frame" x="236" y="89" width="123" height="25"/>
+                                <color key="backgroundColor" red="0.081736211370000006" green="0.204188385" blue="0.67542968749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Yqd-ZG-yxV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobileFaNum" family="IRANYekanMobile(FaNum)" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" red="0.084547229109999997" green="0.2042072415" blue="0.67386329170000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مشهد" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0y-B1-rzh">
+                                <rect key="frame" x="149" y="51" width="38" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="84J-Cp-irY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IRANYekanMobileFaNum" family="IRANYekanMobile(FaNum)" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8q4-eh-Ris" firstAttribute="top" secondItem="YOk-pf-KHl" secondAttribute="top" constant="11" id="2VV-7r-oid"/>
+                            <constraint firstItem="aF0-w4-g5e" firstAttribute="top" secondItem="9Nv-i3-N2U" secondAttribute="bottom" constant="13" id="3Ap-BM-D2D"/>
+                            <constraint firstItem="9VF-pr-EaW" firstAttribute="top" secondItem="SbD-7o-uW3" secondAttribute="bottom" constant="15" id="4Rc-tX-mTF"/>
+                            <constraint firstAttribute="trailing" secondItem="9Nv-i3-N2U" secondAttribute="trailing" constant="8" id="7r8-hm-jEz"/>
+                            <constraint firstItem="PCF-D2-KSs" firstAttribute="top" secondItem="8q4-eh-Ris" secondAttribute="bottom" constant="13.5" id="Apo-MZ-ged"/>
+                            <constraint firstItem="SbD-7o-uW3" firstAttribute="top" secondItem="YOk-pf-KHl" secondAttribute="top" constant="11" id="GYV-uM-Whf"/>
+                            <constraint firstItem="ydf-yD-91N" firstAttribute="top" secondItem="SbD-7o-uW3" secondAttribute="bottom" constant="15" id="H33-ZX-BQR"/>
+                            <constraint firstItem="um4-XF-ani" firstAttribute="top" secondItem="YOk-pf-KHl" secondAttribute="top" constant="11" id="TSx-ee-5JI"/>
+                            <constraint firstItem="9Nv-i3-N2U" firstAttribute="top" secondItem="um4-XF-ani" secondAttribute="bottom" constant="15" id="XMt-7o-LTg"/>
+                            <constraint firstAttribute="bottom" secondItem="aF0-w4-g5e" secondAttribute="bottom" constant="12.5" id="Yjo-rI-JRb"/>
+                            <constraint firstItem="9VF-pr-EaW" firstAttribute="leading" secondItem="PCF-D2-KSs" secondAttribute="trailing" constant="6" id="aRD-rc-QgO"/>
+                            <constraint firstItem="YIV-QL-uJW" firstAttribute="leading" secondItem="YOk-pf-KHl" secondAttribute="leading" constant="8" id="ebZ-kd-8rT"/>
+                            <constraint firstAttribute="trailing" secondItem="um4-XF-ani" secondAttribute="trailing" constant="8" id="kRX-u3-sy4"/>
+                            <constraint firstItem="ydf-yD-91N" firstAttribute="leading" secondItem="9VF-pr-EaW" secondAttribute="trailing" constant="7.5" id="lxp-fz-Ibw"/>
+                            <constraint firstItem="YIV-QL-uJW" firstAttribute="top" secondItem="YOk-pf-KHl" secondAttribute="top" constant="8" id="ly6-g1-DR0"/>
+                            <constraint firstAttribute="trailing" secondItem="aF0-w4-g5e" secondAttribute="trailing" constant="8" id="moa-V5-HrK"/>
+                            <constraint firstItem="um4-XF-ani" firstAttribute="leading" secondItem="SbD-7o-uW3" secondAttribute="trailing" constant="8" id="ogN-Gf-snM"/>
+                            <constraint firstItem="y0y-B1-rzh" firstAttribute="centerY" secondItem="PCF-D2-KSs" secondAttribute="centerY" id="pQS-hH-3rU"/>
+                            <constraint firstItem="SbD-7o-uW3" firstAttribute="leading" secondItem="8q4-eh-Ris" secondAttribute="trailing" constant="2" id="wO0-wC-D8L"/>
+                            <constraint firstItem="9Nv-i3-N2U" firstAttribute="leading" secondItem="ydf-yD-91N" secondAttribute="trailing" constant="5.5" id="x60-tr-xz5"/>
+                            <constraint firstItem="PCF-D2-KSs" firstAttribute="leading" secondItem="y0y-B1-rzh" secondAttribute="trailing" constant="8" id="zS6-Ur-98W"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="YOk-pf-KHl" secondAttribute="bottom" constant="8" id="OTe-Uw-fav"/>
+                    <constraint firstAttribute="trailing" secondItem="YOk-pf-KHl" secondAttribute="trailing" constant="5" id="PrV-sJ-oX6"/>
+                    <constraint firstItem="YOk-pf-KHl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="tK6-zb-wrV"/>
+                    <constraint firstItem="YOk-pf-KHl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ykI-2E-5Ge"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnStar" destination="YIV-QL-uJW" id="yS9-NU-BA9"/>
+                <outlet property="lblDestination" destination="y0y-B1-rzh" id="Xd4-57-cRd"/>
+                <outlet property="lblOrigin" destination="ydf-yD-91N" id="W3v-M9-5US"/>
+                <outlet property="lblProductName" destination="8q4-eh-Ris" id="6ur-ih-q7C"/>
+                <outlet property="lblShippingRate" destination="aF0-w4-g5e" id="Dcj-N5-eqL"/>
+            </connections>
+            <point key="canvasLocation" x="-33.5" y="101.5"/>
+        </tableViewCell>
+    </objects>
+</document>

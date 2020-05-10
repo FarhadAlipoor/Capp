@@ -1,0 +1,561 @@
+[{
+  "name": "اطاقدار4 چرخ",
+  "maxWeight": 7000,
+  "minWeight": 500,
+  "code": 101,
+  "id": 1
+},
+  {
+    "name": "اطاقدار 6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 102,
+    "id": 2
+  },
+  {
+    "name": "اطاقدار10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 103,
+    "id": 3
+  },
+  {
+    "name": "اطاقدار (خاور)",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 107,
+    "id": 4
+  },
+  {
+    "name": "اطاقدار (بنز 911)",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 108,
+    "id": 5
+  },
+  {
+    "name": "اطاقدار (آيفا)",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 109,
+    "id": 6
+  },
+  {
+    "name": "باري چوبي",
+    "maxWeight": 20000,
+    "minWeight": 3000,
+    "code": 111,
+    "id": 7
+  },
+  {
+    "name": "باري فلزي",
+    "maxWeight": 20000,
+    "minWeight": 3000,
+    "code": 112,
+    "id": 8
+  },
+  {
+    "name": "كمپرسي خاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 150,
+    "id": 9
+  },
+  {
+    "name": "كمپرسي  6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 152,
+    "id": 10
+  },
+  {
+    "name": "كمپرسي  10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 153,
+    "id": 11
+  },
+  {
+    "name": "كمپرسي 12 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 154,
+    "id": 12
+  },
+  {
+    "name": "كمپرسي 18 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 155,
+    "id": 13
+  },
+  {
+    "name": "كمپرسي  بغلدار",
+    "maxWeight": 26000,
+    "minWeight": 2500,
+    "code": 156,
+    "id": 14
+  },
+  {
+    "name": "كمپرسي 14 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 157,
+    "id": 15
+  },
+  {
+    "name": "يخچالدارخاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 200,
+    "id": 16
+  },
+  {
+    "name": "يخچالدار6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 202,
+    "id": 17
+  },
+  {
+    "name": "يخچالدار10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 203,
+    "id": 18
+  },
+  {
+    "name": "يخچالدار12چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 204,
+    "id": 19
+  },
+  {
+    "name": "يخچالدار18چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 205,
+    "id": 20
+  },
+  {
+    "name": "بونكر6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 252,
+    "id": 21
+  },
+  {
+    "name": "بونكر10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 253,
+    "id": 22
+  },
+  {
+    "name": "بونكر12چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 254,
+    "id": 23
+  },
+  {
+    "name": "بونكر18چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 255,
+    "id": 24
+  },
+  {
+    "name": "بونكر14چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 256,
+    "id": 25
+  },
+  {
+    "name": "مسقف  خاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 300,
+    "id": 26
+  },
+  {
+    "name": "مسقف  6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 302,
+    "id": 27
+  },
+  {
+    "name": "مسقف  10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 303,
+    "id": 28
+  },
+  {
+    "name": "مسقف 12 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 304,
+    "id": 29
+  },
+  {
+    "name": "مسقف  18 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 305,
+    "id": 30
+  },
+  {
+    "name": "مسقف 14چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 306,
+    "id": 31
+  },
+  {
+    "name": "بغلدارچادري  خاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 350,
+    "id": 32
+  },
+  {
+    "name": "بغلدارچادري  6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 352,
+    "id": 33
+  },
+  {
+    "name": "بغلدارچادري  10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 353,
+    "id": 34
+  },
+  {
+    "name": "بغلدار چادري 12 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 354,
+    "id": 35
+  },
+  {
+    "name": "بغلدار چادري  18چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 355,
+    "id": 36
+  },
+  {
+    "name": "بغلدار چادري 14 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 356,
+    "id": 37
+  },
+  {
+    "name": "تانكر-مخزندارخاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 400,
+    "id": 38
+  },
+  {
+    "name": "تانكر-مخزندار6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 402,
+    "id": 39
+  },
+  {
+    "name": "تانكر-مخزندار10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 403,
+    "id": 40
+  },
+  {
+    "name": "تانكر-مخزندار12چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 404,
+    "id": 4
+  },
+  {
+    "name": "تانكر-مخزندار18چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 405,
+    "id": 42
+  },
+  {
+    "name": "تانكر-مخزندار14چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 406,
+    "id": 43
+  },
+  {
+    "name": "بغلدارمعمولي خاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 450,
+    "id": 44
+  },
+  {
+    "name": "بغلدارمعمولي  6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 452,
+    "id": 45
+  },
+  {
+    "name": "بغلدارمعمولي  10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 453,
+    "id": 46
+  },
+  {
+    "name": "بغلدارمعمولي  12چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 454,
+    "id": 47
+  },
+  {
+    "name": "بغلدار معمولي  18چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 455,
+    "id": 48
+  },
+  {
+    "name": "بغلدارمعمولي  14چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 456,
+    "id": 49
+  },
+  {
+    "name": "بغلدار فلزي",
+    "maxWeight": 28000,
+    "minWeight": 3000,
+    "code": 457,
+    "id": 50
+  },
+  {
+    "name": "كفي خاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 500,
+    "id": 51
+  },
+  {
+    "name": "كفي  6چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 502,
+    "id": 52
+  },
+  {
+    "name": "كفي  10چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 503,
+    "id": 53
+  },
+  {
+    "name": "كفي  12چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 504,
+    "id": 54
+  },
+  {
+    "name": "كفي  18چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 505,
+    "id": 55
+  },
+  {
+    "name": "كفي 14 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 506,
+    "id": 56
+  },
+  {
+    "name": "كفي كشويي",
+    "maxWeight": 26000,
+    "minWeight": 2500,
+    "code": 507,
+    "id": 57
+  },
+  {
+    "name": "كفي كانتينربر (تيغه)12 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 2500,
+    "code": 508,
+    "id": 58
+  },
+  {
+    "name": "كفي كانتينربر (تيغه)14 چرخ",
+    "maxWeight": 32000,
+    "minWeight": 2500,
+    "code": 509,
+    "id": 59
+  },
+  {
+    "name": "سواري كش  يك  طبقه",
+    "maxWeight": 10000,
+    "minWeight": 2500,
+    "code": 600,
+    "id": 60
+  },
+  {
+    "name": "سواري كش  دوطبقه",
+    "maxWeight": 20000,
+    "minWeight": 2500,
+    "code": 601,
+    "id": 61
+  },
+  {
+    "name": "بوژي",
+    "maxWeight": 200000,
+    "minWeight": 8000,
+    "code": 602,
+    "id": 62
+  },
+  {
+    "name": "كمرشكن 5 محور",
+    "maxWeight": 200000,
+    "minWeight": 8000,
+    "code": 603,
+    "id": 63
+  },
+  {
+    "name": "جامبو",
+    "maxWeight": 100000,
+    "minWeight": 2500,
+    "code": 604,
+    "id": 64
+  },
+  {
+    "name": "كاميون  كشنده",
+    "maxWeight": 200000,
+    "minWeight": 2500,
+    "code": 605,
+    "id": 65
+  },
+  {
+    "name": "كانتينردار",
+    "maxWeight": 26000,
+    "minWeight": 2500,
+    "code": 606,
+    "id": 66
+  },
+  {
+    "name": "كاميونت",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 607,
+    "id": 67
+  },
+  {
+    "name": "وانت",
+    "maxWeight": 1000,
+    "minWeight": 3000,
+    "code": 608,
+    "id": 68
+  },
+  {
+    "name": "كمرشكن 7 محور",
+    "maxWeight": 200000,
+    "minWeight": 8000,
+    "code": 609,
+    "id": 69
+  },
+  {
+    "name": "كمرشكن 9 محور",
+    "maxWeight": 200000,
+    "minWeight": 8000,
+    "code": 610,
+    "id": 70
+  },
+  {
+    "name": "كمرشكن 6 محور",
+    "maxWeight": 200000,
+    "minWeight": 8000,
+    "code": 611,
+    "id": 71
+  },
+  {
+    "name": "كمرشكن 11 محور",
+    "maxWeight": 200000,
+    "minWeight": 8000,
+    "code": 612,
+    "id": 72
+  },
+  {
+    "name": "وانت كمپرسي",
+    "maxWeight": 1000,
+    "minWeight": 4000,
+    "code": 613,
+    "id": 73
+  },
+  {
+    "name": "وانت يخچالدار",
+    "maxWeight": 1000,
+    "minWeight": 4000,
+    "code": 614,
+    "id": 74
+  },
+  {
+    "name": "جرثقيلدار",
+    "maxWeight": 32000,
+    "minWeight": 1000,
+    "code": 615,
+    "id": 75
+  },
+  {
+    "name": "ميكسر",
+    "maxWeight": 26000,
+    "minWeight": 1000,
+    "code": 616,
+    "id": 76
+  },
+  {
+    "name": "موتورسيكلت برخاور",
+    "maxWeight": 7000,
+    "minWeight": 500,
+    "code": 700,
+    "id": 77
+  },
+  {
+    "name": "موتورسيكلت بر6 چرخ",
+    "maxWeight": 12000,
+    "minWeight": 500,
+    "code": 702,
+    "id": 78
+  },
+  {
+    "name": "موتورسيكلت بر10 چرخ",
+    "maxWeight": 17000,
+    "minWeight": 1000,
+    "code": 703,
+    "id": 79
+  },
+  {
+    "name": "موتورسيكلت بر18 چرخ",
+    "maxWeight": 28000,
+    "minWeight": 1000,
+    "code": 705,
+    "id": 80
+  }
+]

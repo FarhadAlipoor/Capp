@@ -1,0 +1,137 @@
+
+//  Localizations.strings
+//  Capp
+
+//  Created by tannaz on 11/19/17.
+//  Copyright © 2017 Capp. All rights reserved.
+//
+
+
+"ForgotYourPassword" = "کلمه عبور خود را فراموش کرده اید؟ ";
+"RegisterInSystem"   = "ثبت نام در سامانه";
+
+//itemSelection
+"Name"                      = "نام";
+"FamilyName"                = "نام خانوادگی";
+"SmartCardNum"              = "شماره کارت هوشمند";
+"NationalCode"              = "کد ملی";
+"DrivingLicenseNum"         = "شماره گواهینامه";
+"Active"                    = "فعال";
+"DeActive"                  = "غیرفعال";
+
+//Security Questions
+
+"WhereIsYourAddress?"        = "آدرس محل سکونت شما کجاست؟";
+"WhoIsYourBestFriend?"       = "نام صمیمی ترین دوست شما چیست؟";
+"WhatsTheNameOfYourSchool?"  = "نام دبستان که در آن تحصیل کردید؟";
+"WhatsTheNameOfYourCompany?" = "نام شرکت حمل نقلی که بیشترین بار را برایش حمل کردید؟";
+"WhatsYourFavoriteColor?"    = "رنگ مورد علاقه تان چیست ؟";
+"WhatsTheNameOfYourChild?"   = "نام اولین فرزندتان چیست؟";
+"Resend"                     = "ارسال مجدد کد";
+// alertView
+
+"Error"                     = "خطا";
+"Successfull"               = "موفق";
+"Caution"                   = "هشدار";
+"Done"                      = "تأیید";
+"Censure"                   = "انتقاد";
+"Suggestion"                = "پیشنهاد";
+"ErrorReport"               = "گزارش خطا";
+
+// title ViewController
+
+"LoginVC"                   = "ورود کاربران";
+"InquiryDriver"             = "استعلام راننده";
+"InputData"                 = "ورود اطلاعات";
+"InputVerificationCode"     = "ورود کد فعالسازی";
+"Paymant"                   = "پرداخت";
+"RecoveryPassword"          = "یادآوری رمز عبور";
+"InpuySendingCode"          = "ورود کد ارسال شده";
+"AnswerToSecurityQuestion"  = "پاسخ به سوال امنیتی ";
+"ChangePhoneNumber"         = "تغییر شماره تلفن";
+"Close"                     = "بستن";
+"VahiclesList"              = "لیست ناوگان";
+"E"                         = "ع";
+"AddNewVehicle"             = "افزودن ناوگان جدید";
+"Search"                    = "جستجو";
+"VehicleData"               = "اطلاعات ناوگان";
+"ChooseServiceType"         = "انتخاب نوع خدمات";
+"Terminals"                 = "پایانه ها";
+"ListOfVirtualLicenseCargo" = "لیست بارهای مجوز مجازی";
+"DriverLastTurnStatus"      = "وضعیت آخرین نوبت راننده";
+"ListCargoOfVirtualPermit"  = "لیست بارهای مجوز مجازی";
+"CargoDetails"              = "جزيیات بار";
+"PermitDetails"             = "جزيیات مجوز مجازی";
+"ShowCargoSaloon"           = " نمایش بارهای سالن اعلان بار";
+"FavoriteList"              = "لیست علاقه مندی ها";
+"TerminalPayments"          = "پرداخت های پایانه ای";
+"Reports"                   = "گزارشات";
+"TurnsReports"              = "گزارش های نوبت";
+"PermitReports"             = "گزارش های مجوز";
+"PaymentReports"            = "گزارش های اعتبار مالی";
+"TerminalDetails"           = "اطلاعات پایانه";
+"MyProfile"                 = "پروفایل من";
+"Settings"                  = "تنظیمات";
+"Education"                 = "آموزش";
+"Comments"                  = "نظرات";
+"InviteFriends"             = "معرفی دوستان";
+"AboutUs"                   = "درباره ما";
+"PaymentsReports"           = "گزارش های پرداختی";
+
+//sliderMenu
+"MyProfile"                 = "پروفایل من";
+"TerminalServices"          = "خدمات پایانه ای";
+"Virtual Load Announcement" = "اعلان بارمجازی";
+"VehiclesInformations"      = "اطلاعات ناوگان";
+"Settings"                  = "تنظیمات";
+"Education"                 = "آموزش";
+"Comments"                  = "نظرات";
+"AboutCaPP"                 = "CaPPدرباره";
+"ContactWithUS"             = "تماس با ما";
+"Exit"                      = "خروج";
+"Rial"                      = "ریال";
+
+//Filter
+"CargoDestination"           = "مقصد بار";
+"CargoWeight"                = "وزن بار";
+"CargoType"                  = "نوع بار";
+"CargoCost"                  = "قیمت بار";
+
+//TerminalPayment
+"ParkingCharge"             = "شارژ پارکینگ";
+"ApplicationCharge"         = "شارژ اپلیکیشن";
+"SMSCharge"                 = "شارژ خدمات پیامکی";
+"TurnsReports"              = "گزارش های نوبت";
+"PermitReports"             = "گزارش های مجوز";
+"CreditReports"             = "گزارش های اعتبار مالی";
+"PaymentsReports"           = "گزارش پرداختی ها";
+
+
+//Education
+"EducateToGetVirtualTurn"       = "آموزش نحوه دریافت نوبت مجازی";
+"EducateToChargingSMSServices"  = "آموزش شارژ خدمات پیامکی";
+"EducatoToGetVirtualPermit"     = "آموزش دریافت مجوز مجازی";
+"EducateToEditVehicle"          = "آموزش اصلاح اطلاعات ناوگان";
+"EducateToSelectCargoype"       = "آموزش انتخاب نوع بار";
+
+//Settings
+"CommunicationSettings"         = "تنظیمات ارتباطی";
+"ProfileSetting"                = "اطلاعات شخصی";
+
+//CommunicationSettings
+"SMSServices"                   = "خدمات پیامکی";
+"Internet"                      = "اینترنت";
+"SuccessFull"                   = "موفق";
+"UnSuccess"                     = "ناموفق";
+"Day"                           = "روز";
+"Hours"                         = "ساعت";
+
+
+
+
+
+
+
+
+
+
